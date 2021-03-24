@@ -1,0 +1,5 @@
+streamlit==0.79.0
+pandas==0.25.3
+shap==0.39.0
+matplotlib==3.3.4
+scikit_learn==0.24.1
