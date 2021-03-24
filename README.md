@@ -1,2 +1,2 @@
 # Regressor-Boston-Houses-Price
-[link to application](https://regressor-boston-houses-price.herokuapp.com/)
+[Link to application](https://tarantuviez-17.herokuapp.com/)
