@@ -13,6 +13,13 @@ st.write("""
 # Boston House Price Prediction App
 This app predicts the **Boston House Price**!
 """)
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.write('---')
 
 # Loads the Boston House Price Dataset
@@ -85,3 +92,10 @@ st.write('---')
 plt.title('Feature importance based on SHAP values (Bar)')
 shap.summary_plot(shap_values, X, plot_type="bar")
 st.pyplot(bbox_inches='tight')
+
+st.write("""
+## App repository
+
+[Github](https://github.com/ftarantuviez/Regressor-Boston-Houses-Price)
+""")
+# / This app repository
